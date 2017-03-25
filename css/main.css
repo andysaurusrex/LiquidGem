@@ -1,0 +1,98 @@
+/* FONT STYLES
+font-family: 'Calligraffitti', cursive;
+font-family: 'Petit Formal Script', cursive;
+*/
+
+* {
+	color: #495055;
+	background-color: #eaeaea;
+}
+
+/* Line separator */
+hr {
+	border: 1px solid #a9a9a9;
+	margin: 0 auto;
+	width: 95%;
+
+}
+
+nav {
+	margin: 0 1%;
+	padding: 3%;
+	text-decoration: none;
+}
+
+nav img {
+	height: 34px;
+}
+
+nav > div {
+	display: inline-block;
+}
+
+nav > div > a {
+ font-family: 'Petit Formal Script', cursive;
+ right: 25px;
+ top: 34px;
+ font-size: 34px;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+nav ul {
+	position: absolute;
+	right: 3%;
+	top: 7%;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav li a {
+	font-family: sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 28px;
+}
+
+section {
+	margin: 1%;
+	padding: 1%;
+	padding-bottom: 50px;
+}
+
+header img {
+	display: block;
+	border-radius: 10px;
+	height: 500px;
+	margin: 0 auto;
+	width: 95%;
+}
+
+header h1 {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+header h1 span {
+	color: #eca2b2;
+}
+
+header h2 {
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: thin;
+	text-align: center;
+
+}
+section div.title {
+	font-family: 'Petit Formal Script', cursive;
+	font-size: 22px;
+	display: inline-block;
+	color: #eca2b2;
+}
+
+section div {
+	font-size: 16px;
+}
